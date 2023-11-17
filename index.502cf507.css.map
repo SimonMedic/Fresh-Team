@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.502cf507.css","src/css/header.css","src/css/main.css"],"sourcesContent":[".paragraf {\n  background-color: #00f;\n}\n\n\n\n/*# sourceMappingURL=index.502cf507.css.map */\n",".paragraf {\n    background-color: blue;\n}","@import url(./header.css);"],"names":[],"version":3,"file":"index.502cf507.css.map"}
