@@ -5,9 +5,73 @@
     margin: 0 auto;
 }
 
-.header-flex{
+.header-div-flex{
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    justify-content: space-between;
+}
+
+.header-nav-flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-nav-list-cont{
+    display: flex;  
+    gap: 24px;
+    padding-left: 188px;
+    margin: 0;
+    
+}
+
+.header-link-cont{
+    display: flex;
+}
+
+.header-adress-list-cont{
+    display: flex;
+    padding-left: 137px;
+    margin:0;
+    gap: 18px;
+}
+
+.header-no-dot{
+    list-style: none;
+}
+
+.header-menu{
+    display: none;
+}
+
+.header-font{
+    color: #111;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.header-simply-font{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.header-choc-font {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.header-nav-list-font{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.28px;
 }
