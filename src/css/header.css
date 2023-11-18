@@ -81,3 +81,13 @@
     line-height: 16px;
     letter-spacing: -0.28px;
 }
+
+.header-svg-backg{
+    background-color: transparent;
+    fill: white;
+}
+
+.header-adress-li{
+    display: flex;
+    align-items: center;
+}
