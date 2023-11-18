@@ -1,0 +1,15 @@
+.hero-cont {
+    width: 1200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+
+.hero-backround{
+    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/hero/chocolate-covered-cocoa-powder-1.png), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+    max-width: 1136px;
+}
+
+.hero-paragraph{
+    padding-top: 381px;
+}
