@@ -1,0 +1,10 @@
+.header-cont{
+    width: 1200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+
+.header-flex{
+    display: flex;
+}
