@@ -14,20 +14,26 @@
 
 .header-nav-flex{
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .header-nav-list-cont{
     display: flex;  
-    gap: 24px;
-    padding-left: 188px;
-    margin: 0;
-    
+    align-content: stretch;
+    gap: 24px; 
+    padding-left: 188px; 
+}
+
+.header-nav-list-link{
+    display: block;
 }
 
 .header-link-cont{
     display: flex;
+}
+.header-adress-cont {
+    display: flex;
+    align-items: center;
 }
 
 .header-adress-list-cont{
@@ -47,7 +53,7 @@
 
 .header-font{
     color: #111;
-    font-family: Montserrat;
+    font-family: "Montserrat",sans-serif;
     font-style: normal;
 }
 
