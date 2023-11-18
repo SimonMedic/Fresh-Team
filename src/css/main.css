@@ -8,3 +8,7 @@
 @import url(./reviews.css);
 @import url(./subscribe.css);
 @import url(./footer.css);
+
+body {
+  font-family: Montserrat, sans-serif;
+}
