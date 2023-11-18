@@ -1,65 +1,63 @@
 .hero-cont {
-    width: 1200px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin: 0 auto;
+  width: 1200px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0 auto;
 }
 
-.hero-font{
-    
-    font-family: "Montserrat", sans-serif;
+.hero-font {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.hero-backround{
-    background: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/hero/chocolate-covered-cocoa-powder-1.png), lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
-    max-width: 1136px;
+.hero-backround {
+  background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, rgba(17, 17, 17, 0.4) 100%),
+    url(../images/hero/chocolate-covered-cocoa-powder-1.png),
+    lightgray -70.319px -105.03px / 110.32% 139.265% no-repeat;
+  max-width: 1136px;
 }
 
-.hero-paragraph-cont{
-    padding-top: 381px;
-    padding-left: 40px;
-    max-width: 484px ;
+.hero-paragraph-cont {
+  padding-top: 381px;
+  padding-left: 40px;
+  max-width: 484px;
 }
 
-.hero-paragraph-font{
-    color: #FFF;
-    font-size: 28px;
-    line-height: 34px;
-    font-weight: 500;
-    letter-spacing: -0.84px;
+.hero-paragraph-font {
+  color: #fff;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  letter-spacing: -0.84px;
 }
 
-.hero-buttons-cont{
-    padding-bottom: 40px;
-    padding-left: 40px;
-    display: flex;
-    gap: 14px;
+.hero-buttons-cont {
+  padding-bottom: 40px;
+  padding-left: 40px;
+  display: flex;
+  gap: 14px;
 }
 
-.hero-button-style{
-    display: flex;
-    padding: 14px 40px;
-    align-items: flex-start;
-    border-radius: 100px;
+.hero-button-style {
+  display: flex;
+  padding: 14px 40px;
+  align-items: flex-start;
+  border-radius: 100px;
 }
 
-.hero-button-buy{
-    background: #FD9222;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: normal;
-    border-style: none;
+.hero-button-buy {
+  background: #fd9222;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-style: none;
 }
 
-.hero-button-made{
-    background: transparent;
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: normal;
-    border-color: #FFF;
+.hero-button-made {
+  background: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  border-color: #fff;
 }
-
-
-
