@@ -1,4 +1,4 @@
-.how-itm-made-section {
+.how-its-made-section {
   width: 1200px;
 }
 .him-header {
@@ -28,7 +28,39 @@
   width: 600px;
   height: 400px;
   overflow: hidden;
-  /*background-image: url();*/
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    url(../images/how-its-made/imgvideodescop.jpg),
+    lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+}
+
+.him-content {
+  display: flex;
+  width: 516px;
+  height: 400px;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.him-content-text {
+  color: #111;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+
+.him-content-item {
+  color: #111;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.28px;
 }
 
 /* Style dla obrazu */
@@ -45,12 +77,12 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .how-itm-made-section {
+  .how-its-made-section {
     width: 1200px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .how-itm-made-section {
+  .how-its-made-section {
     width: 768px;
   }
 }
