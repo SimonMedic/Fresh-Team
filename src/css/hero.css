@@ -30,10 +30,12 @@
 }
 
 .hero-buttons-cont{
+    display: flex;
     padding-bottom: 40px;
     padding-left: 40px;
     display: flex;
     gap: 14px;
+    justify-content: space-between
 }
 
 .hero-button-style{
@@ -59,6 +61,30 @@
     font-weight: 600;
     line-height: normal;
     border-color: #FFF;
+    margin-left: 14px;
+}
+
+.hero-buttons-div{
+    display: flex;
+    align-items: center;
+}
+
+.hero-scroll-div{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.hero-button-v{
+    border-radius: 100px;
+}
+
+.hero-button-link{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.42px;
 }
 
 
