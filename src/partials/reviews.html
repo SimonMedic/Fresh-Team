@@ -1,5 +1,5 @@
-<section class="section reviews">
-  <div class="container">
+<section class="reviews-section">
+  <div class="reviews-container">
     <h2 class="reviews-header"><span class="reviews-span">CHOCOLATE</span> IS LOVED</h2>
     <ul>
       <div class="reviews-cards">
@@ -110,19 +110,20 @@
       </div>
     </ul>
     <div class="reviews-slider"></div>
-    <button type="button" class="reviews-button" data-modal-open>Leave a review</button>
+    <button type="button" class="reviews-button" review-modal-open>Leave a review</button>
   </div>
 </section>
 
-<div data-modal class="backdrop is-hidden">
+<div review-modal class="backdrop is-hidden">
   <div class="reviews-modal">
-    <button data-modal-close type="button" class="reviews-modal-closing-button">
-      <svg width="28" height="28" class="reviews-closing-icon">
+    <button review-modal-close type="button" class="reviews-modal-closing-button">
+      <svg class="reviews-closing-icon">
         <use href="./images/icons.svg#icon-x-close"></use>
       </svg>
     </button>
     <p class="reviews-modal-title">
-      LEAVE A REVIEW ABOUT<span class="reviews-span"> OUR CHOCOLATE</span>
+      LEAVE A REVIEW<br />
+      ABOUT<span class="reviews-span"> OUR CHOCOLATE</span>
     </p>
     <form>
       <div class="reviews-form">
@@ -159,7 +160,7 @@
                 pattern="[0-9]{9}"
                 title="Please enter a valid phone number with 9 digits"
                 placeholder="Phone number"
-                class="reviews-input"
+                class="reviews-input reviews-input-tel"
                 required
             /></label>
           </div>
