@@ -177,6 +177,7 @@
         padding-left: 20px;
         padding-right: 20px;
         margin: 0 auto;
+        min-width: 378px;
     }
 
     .header-div-flex {
