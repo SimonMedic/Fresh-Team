@@ -11,6 +11,7 @@
   line-height: 28px; /* 116.667% */
   letter-spacing: -0.72px;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .him-span {
@@ -24,24 +25,30 @@
   text-transform: uppercase;
 }
 
+.him-div {
+  display: flex;
+  gap: 20px;
+}
 .him-video-div {
-  width: 600px;
-  height: 400px;
+  max-height: auto;
   overflow: hidden;
   border-radius: 15px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(../images/how-its-made/imgvideodescop.jpg),
     lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  margin-left: 32px;
 }
 
 .him-content {
   display: flex;
   width: 516px;
   height: 400px;
+  margin-right: 32px;
   padding: 32px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+  justify-content: start;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #fff;
 }
 
 .him-content-text {
@@ -51,6 +58,17 @@
   font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 133.333% */
+  margin: 0;
+}
+.him-content-list {
+  display: flex;
+  width: 452px;
+  height: 260px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  font-family: Montserrat;
 }
 
 .him-content-item {
@@ -76,6 +94,13 @@
   border: 0;
 }
 
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
 @media screen and (min-width: 1200px) {
   .how-its-made-section {
     width: 1200px;
