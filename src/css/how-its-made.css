@@ -27,18 +27,17 @@
 }
 
 .him-video-div {
-  max-height: auto;
   overflow: hidden;
   border-radius: 15px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(../images/how-its-made/imgvideodescop.jpg),
     lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  max-height: 400px;
+  max-width: 600px;
 }
 
 .him-content {
   display: flex;
-  width: 516px;
-  height: 400px;
   padding: 32px;
   justify-content: start;
   flex-direction: column;
@@ -57,11 +56,8 @@
 }
 .him-content-list {
   display: flex;
-  width: 452px;
-  height: 260px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
   flex-shrink: 0;
   font-family: Montserrat;
 }
@@ -104,16 +100,62 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .how-its-made-section {
-    width: 1200px;
+    min-width: 1200px;
     margin: 0 32px;
   }
   .him-div {
     display: flex;
     gap: 20px;
   }
+  .him-content-list {
+    gap: 24px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .how-its-made-section {
-    width: 768px;
+    min-width: auto;
+    padding-right: 77px;
+    padding-left: 77px;
+  }
+  .him-content {
+    margin-top: 20px;
+  }
+  .him-content-list {
+    margin-bottom: 0px;
+    margin-top: 28px;
+    gap: 18px;
+  }
+  .him-video-div {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(../images/how-its-made/imgvideotablet.jpg),
+      lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  }
+}
+@media screen and (max-width: 768px) {
+  .how-its-made-section {
+    min-width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .him-header,
+  .him-span {
+    font-size: 20px;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+    margin-bottom: 32px;
+  }
+
+  .him-video-div {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+      url(../images/how-its-made/imgvideomobile.jpg),
+      lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  }
+  .him-content {
+    margin-top: 28px;
+    padding: 20px 14px;
+  }
+  .him-content-list {
+    margin: 20px 0;
+    gap: 18px;
   }
 }
