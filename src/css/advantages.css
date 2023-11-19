@@ -46,7 +46,7 @@
 
 .adv-svg{
     border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.50);
+    border  : 1px solid rgba(255, 255, 255, 0.50);
     width: 62px;
     height: 62px;
     display: flex;
