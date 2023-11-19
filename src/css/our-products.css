@@ -21,7 +21,7 @@ img {
 .section {
     background-color:var(--white-color);
     width: 1136px;
-    height: 442px;
+   padding: 0 32px 173px 32px;
     display: flex;
 flex-direction: column;
 align-items: center;
