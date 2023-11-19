@@ -102,6 +102,10 @@
         align-items: center;
     }
 
+    .menu-container-a{
+        display: none;
+    }
+
 }
 
 /*===================Tablet====================*/
