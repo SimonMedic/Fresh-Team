@@ -1,0 +1,14 @@
+.adv-cont {
+    max-width: 1200px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+
+.adv-bacground{
+    background: #1E1823;
+}
+
+.adv-list-nodot{
+    list-style: none;
+}
