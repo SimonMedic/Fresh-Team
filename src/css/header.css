@@ -85,6 +85,12 @@
 .header-svg-backg{
     background-color: transparent;
     fill: white;
+    stroke: #111;
+}
+
+.header-svg-backg:hover{
+    stroke-width: 2px;
+    stroke: #FD9222;
 }
 
 .header-adress-li{
