@@ -1,6 +1,7 @@
 .how-its-made-section {
-  width: 1200px;
+  background-color: #fafafa;
 }
+
 .him-header {
   color: #111;
   text-align: center;
@@ -25,10 +26,6 @@
   text-transform: uppercase;
 }
 
-.him-div {
-  display: flex;
-  gap: 20px;
-}
 .him-video-div {
   max-height: auto;
   overflow: hidden;
@@ -36,14 +33,12 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
     url(../images/how-its-made/imgvideodescop.jpg),
     lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
-  margin-left: 32px;
 }
 
 .him-content {
   display: flex;
   width: 516px;
   height: 400px;
-  margin-right: 32px;
   padding: 32px;
   justify-content: start;
   flex-direction: column;
@@ -79,6 +74,7 @@
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.28px;
+  display: flex;
 }
 
 /* Style dla obrazu */
@@ -100,10 +96,20 @@ img {
 
 .list {
   list-style: none;
+  padding: 0;
+}
+
+.him-svg {
+  margin-right: 5px;
 }
 @media screen and (min-width: 1200px) {
   .how-its-made-section {
     width: 1200px;
+    margin: 0 32px;
+  }
+  .him-div {
+    display: flex;
+    gap: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
