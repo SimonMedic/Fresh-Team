@@ -61,6 +61,11 @@
     border-style: none;
 }
 
+.hero-button-buy:hover{
+    background: #FCF1E0;
+    color: #FD9222;
+}
+
 .hero-button-made{
     background: transparent;
     color: #FFF;
@@ -69,7 +74,12 @@
     line-height: normal;
     border-color: #FFF;
     margin-left: 14px;
-    border-style: solid;
+    border: 1px solid
+}
+
+.hero-button-made:hover{
+    border: 1px solid #FD9222;
+    color: #FD9222;
 }
 
 .hero-buttons-div{
@@ -84,6 +94,8 @@
     width: 130px;
     gap: 14px;
 }
+
+.hero-scroll-div{}
 
 .hero-button-v{
     border-radius: 50%;
