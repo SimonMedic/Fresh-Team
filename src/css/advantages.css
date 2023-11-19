@@ -65,6 +65,7 @@
     font-size: 18px;
     font-weight: 600;
     font-style: normal;
+    line-height: normal;
 }
 
 .adv-par-cont{
@@ -76,6 +77,5 @@
     color: rgba(255, 255, 255, 0.70);
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: -0.28px;
     font-style: normal;
 }
