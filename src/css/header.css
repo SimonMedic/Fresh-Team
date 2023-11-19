@@ -195,6 +195,10 @@
         display: initial;
     }
 
+    .menu-div{
+        display: flex;
+    }
+
     .menu-list{
         display: flex;
         flex-wrap: wrap;
@@ -205,6 +209,12 @@
         list-style: none;
         gap: 24px;
     }
+
+    .menu-close-button{
+      margin: 150px;
+    }
+
+
 
     .menu-list-font{
         color: #FFF;
