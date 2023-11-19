@@ -169,10 +169,8 @@
 @media screen and (max-width: 768px) {
 
     .adv-cont {
-        margin-top: 71px;
-        max-width: 768px;
-        margin: 0 auto;
-        min-width: 378px;
+        width: 335px;
+        margin: 71px auto;
     }
 
     .adv-font {
