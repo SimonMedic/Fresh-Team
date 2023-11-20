@@ -1,0 +1,131 @@
+/* ======= DESKTOP ======= */
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 367px 72px 366px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(../images/subscribe/SubcribeDesktop.jpg),
+      lightgray 0px -481.157px / 100% 375.122% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .subscribe-title {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  .subscribe-description {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .subscribe-button {
+    display: flex;
+    align-items: flex-start;
+    padding: 14px 40px;
+    gap: 14px;
+    border-radius: 100px;
+    background: #fd9222;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+  }
+}
+
+/* ======= MOBILE ======= */
+
+@media screen and (max-width: 768px) {
+  .subscribe {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+/* ======= TABLET ======= */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .subscribe {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .container-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 367px 72px 366px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(../images/subscribe/SubcribeTablet.jpg),
+      lightgray 0px -481.157px / 100% 375.122% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .subscribe-title {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  .subscribe-description {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .subscribe-button {
+    display: flex;
+    align-items: flex-start;
+    padding: 14px 40px;
+    gap: 14px;
+    border-radius: 100px;
+    background: #fd9222;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+  }
+}
