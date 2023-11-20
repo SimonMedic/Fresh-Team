@@ -1,5 +1,7 @@
 .subscribe {
+  display: flex;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container-subscribe {
@@ -10,6 +12,9 @@
   padding: 72px 367px 72px 366px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
     url(../images/subscribe/SubcribeDesktop.jpg), lightgray 0px -481.157px / 100% 375.122% no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .subscribe-title {
