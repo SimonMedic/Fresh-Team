@@ -1,3 +1,7 @@
+.subscribe {
+  max-width: 1200px;
+}
+
 .container-subscribe {
   display: flex;
   flex-direction: column;
