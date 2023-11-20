@@ -1,5 +1,6 @@
 .container-subscribe {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 72px 367px 72px 366px;
