@@ -1,7 +1,14 @@
-body {
-    width: 1200px;
-}
 
+.container {
+    max-width: 1200px;
+    background-color:var(--white-color);
+    margin: 0 auto;
+   padding:0 32px 173px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+flex-shrink: 0;
+}
 img {
     display: block;
     max-width: 100%;
@@ -18,38 +25,33 @@ img {
 .link {
     text-decoration: none;
 }
-.section {
-    background-color:var(--white-color);
-    width: 1136px;
-   padding: 0 32px 173px 32px;
-    display: flex;
-flex-direction: column;
-align-items: center;
-gap: 50px;
-flex-shrink: 0;
-}
 .section-title {
     color:var(--orange-color);
 text-align: center;
-font-family: Montserrat;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: 28px;
 letter-spacing: -0.72px;
 text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 50px;
 }
 .section-title-span {
     color:var(--black-color);
 }
 .our-products-container {
     display: flex;
-width: 1136px;
+
 justify-content: center;
 align-items: center;
 gap: 18px;
 flex-shrink: 0;
-
+margin: 0;
+padding: 0;
+}
+.our-products-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 .our-products-chocolate {
     border-radius: 15px;
@@ -62,7 +64,8 @@ flex-shrink: 0;
      justify-content: space-between;
      flex-wrap: wrap;
 row-gap: 18px;
-
+align-items: center;
+margin:0 auto;
 }
 .our-products-chocolate-container {
    display: block;
@@ -71,7 +74,6 @@ row-gap: 18px;
 }
 .our-products-header {
     color:var(--black-color);
-font-family: Montserrat;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -85,7 +87,6 @@ justify-content: center;
 }
 .our-products-text {
     color: rgba(17, 17, 17, 0.70);
-font-family: Montserrat;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
@@ -108,9 +109,62 @@ justify-content: center;
 gap: 14px;
 margin: 0 auto;
 color:var(--black-color);
-font-family: Montserrat;
 font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.top-sellers {
+    padding-bottom: 128px;
+}
+.top-sellers-container {
+   margin-top: 0;
+}
+.top-seller-list {
+    margin: 0 auto;
+}
+.top-sellers-image {
+   border-radius: 15px;
+background-color: lightgray 50%;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.top-sellers-list {
+     display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+.top-sellers-item {
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    align-items: flex-start;
+    gap: 550px;
+    flex-shrink: 0;
+    }  
+
+.top-sellers-text {
+    color:var(--black-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.28px;
+width: 407px;
+margin:0;
+padding: 0;
+}
+.top-sellers-button {
+background-color:var(--orange-color);
+color:var(--white-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 100px;
+border: none;
+padding: 14px 40px;
+gap: 14px;
 }
