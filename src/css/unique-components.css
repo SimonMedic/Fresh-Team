@@ -56,6 +56,7 @@
 }
 .unique-components-list-layout > img {
   margin: auto;
+  outline: none;
 }
 .u-c-l-l-first {
   border: none;
@@ -99,7 +100,6 @@
 .unique-components-list-layout:hover,
 .unique-components-list-layout:focus {
   border: none;
-  outline: none;
 }
 .u-c-img-link:hover .u-c-overlay,
 .u-c-img-link:focus .u-c-overlay {
@@ -147,7 +147,7 @@ button {
   height: 162px;
   padding: ;
   margin-top: 14px;
-  overflow: auto;
+  overflow: visible;
   color: #111;
   text-overflow: ellipsis;
   font-family: Montserrat;
@@ -179,7 +179,6 @@ button {
   .u-c-overlay-text {
     width: 280px;
     height: 146px;
-    overflow: visible;
   }
 }
 @media screen and (max-width: 767px) {
@@ -207,6 +206,5 @@ button {
   .u-c-overlay-text {
     width: 279px;
     height: 146px;
-    overflow: visible;
   }
 }
