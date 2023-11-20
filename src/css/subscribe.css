@@ -63,11 +63,20 @@
 /* ======= MOBILE ======= */
 
 @media screen and (max-width: 768px) {
+  .subscribe {
+    width: 375px;
+    margin: 0 auto;
+  }
 }
 
 /* ======= TABLET ======= */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .subscribe {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
   .container-subscribe {
     display: flex;
     flex-direction: column;
