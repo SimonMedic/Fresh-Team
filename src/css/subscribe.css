@@ -60,7 +60,7 @@
   }
 
   .subscribe-photo {
-    background: url(/src/images/subscribe/subscribe-modal-desk.jpg), lightgray 50% / cover repeat-x;
+    background: url(./src/images/subscribe/subscribe-modal-desk.jpg), lightgray 50% / cover repeat-x;
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
