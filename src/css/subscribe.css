@@ -60,7 +60,7 @@
   }
 
   .subscribe-photo {
-    background: url(../images/subscribe/subscribe-desktop.jpg), lightgray 50% / cover repeat-x;
+    background: url(/images/subscribe/subscribe-desktop.jpg), lightgray 50% / cover repeat-x;
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -214,7 +214,7 @@
   }
 
   .subscribe-photo {
-    background: url(../images/subscribe/subscribe-mobile.jpg), lightgray 50% / cover repeat-x;
+    background: url(/images/subscribe/subscribe-mobile.jpg), lightgray 50% / cover repeat-x;
     height: 169px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -425,7 +425,7 @@
   }
 
   .subscribe-photo {
-    background: url(../images/subscribe/subscribe-tablet.jpg), lightgray 50% / cover repeat-x;
+    background: url(/images/subscribe/subscribe-tablet.jpg), lightgray 50% / cover repeat-x;
     height: 196px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
