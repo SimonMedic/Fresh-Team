@@ -5,16 +5,17 @@
   align-items: center;
   padding-top: 128px;
   padding-bottom: 128px;
+  background-color: #fafafa;
 }
 .unique-components-section-title {
   width: 411px;
   color: #111;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px; /* 116.667% */
+  line-height: 28px;
   letter-spacing: -0.72px;
   text-transform: uppercase;
 }
@@ -25,11 +26,11 @@
   width: 486px;
   color: #111;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
 }
 .unique-components-list {
@@ -69,7 +70,7 @@
 }
 .unique-components-list-description {
   color: #fff;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -93,7 +94,7 @@
   width: 100%;
   height: 100%;
   background-color: #fff;
-  border-radius: 15px #fff;
+  border-radius: 15px;
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
   padding: 20px;
@@ -108,7 +109,7 @@
 }
 .u-c-overlay-title {
   color: #111;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -130,13 +131,13 @@ button {
   gap: 4px;
   border: 1px solid #fd9222;
   background: #fafafa;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
   cursor: pointer;
-  transition-property: background-color color;
+  transition-property: background-color, color;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 }
@@ -149,16 +150,15 @@ button {
 .u-c-overlay-text {
   width: 230px;
   height: 162px;
-  padding: ;
   margin-top: 14px;
   overflow: visible;
   color: #111;
   text-overflow: ellipsis;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
 }
 
