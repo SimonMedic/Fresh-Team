@@ -30,6 +30,8 @@
 
     .header-nav-list-link{
         display: block;
+        text-decoration: none;
+        color: #111;
     }
 
     .header-link-cont{
