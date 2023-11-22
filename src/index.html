@@ -25,21 +25,33 @@
   <body>
     <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
     <!-- <include src="./partials/example.html"></include> -->
-    <include src="./partials/header.html"></include>
+    <div id="header">
+      <include src="./partials/hero.html"></include>
+    </div>
     <main>
       <div id="header">
         <include src="./partials/hero.html"></include>
       </div>
       <include src="./partials/advantages.html"></include>
       <include src="./partials/unique-components.html"></include>
-      <include src="./partials/how-its-made.html"></include>
-      <include src="./partials/our-products.html"></include>
-      <include src="./partials/top-sellers.html"></include>
-      <include src="./partials/reviews.html"></include>
+      <div id="how-its-made">
+        <include src="./partials/how-its-made.html"></include>
+      </div>
+      <div id="our-products">
+        <include src="./partials/our-products.html"></include>
+      </div>
+      <div id="top-sellers">
+        <include src="./partials/top-sellers.html"></include>
+      </div>
+      <div id="chocolate-is-loved">
+        <include src="./partials/reviews.html"></include>
+      </div>
       <include src="./partials/subscribe.html"></include>
     </main>
 
+    <div id="footer"></div>
     <include src="./partials/footer.html"></include>
+    </div>
 
     <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
     <script src="./index.js" type="module"></script>
