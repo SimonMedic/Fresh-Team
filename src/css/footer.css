@@ -17,7 +17,7 @@
 .footer-head{
     color: #fff;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 34;
     letter-spacing: -0.56px;
     font-weight: 500;
     width: 300px;
@@ -42,7 +42,7 @@
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 18;
     margin-bottom: 14px;
 }
 
@@ -51,7 +51,7 @@
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 18;
     letter-spacing: -0.28px;
     margin: 0px 0px 4px 0px;
 }
@@ -89,7 +89,7 @@
     color: #fff;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 16;
     letter-spacing: -0.28px;
 }
 
@@ -133,7 +133,7 @@
 
     .footer-head{
         font-size: 28px;
-        line-height: 34px;
+        line-height: 34;
         letter-spacing: -0.56px;
         font-weight: 500;
         width: 300px;
@@ -149,14 +149,14 @@
     .footer-contact{
         font-size: 14px;
         font-weight: 500;
-        line-height: 18px;
+        line-height: 18;
         margin-bottom: 14px;
     }
     
     .footer-contact-ii{
         font-size: 14px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 18;
         letter-spacing: -0.28px;
         margin: 0px 0px 4px 0px;
     }
@@ -178,7 +178,7 @@
     .footer-menu{
         font-size: 14px;
         font-weight: 500;
-        line-height: 16px;
+        line-height: 16;
         letter-spacing: -0.28px;
     }
 
@@ -221,7 +221,7 @@
 
     .footer-head{
         font-size: 28px;
-        line-height: 34px;
+        line-height: 34;
         letter-spacing: -0.56px;
         font-weight: 500;
         width: 300px;
@@ -237,14 +237,14 @@
     .footer-contact{
         font-size: 14px;
         font-weight: 500;
-        line-height: 18px;
+        line-height: 18;
         margin-bottom: 14px;
     }
     
     .footer-contact-ii{
         font-size: 14px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 18;
         letter-spacing: -0.28px;
         margin: 0px 0px 4px 0px;
     }
@@ -266,7 +266,7 @@
     .footer-menu{
         font-size: 14px;
         font-weight: 500;
-        line-height: 16px;
+        line-height: 16;
         letter-spacing: -0.28px;
     }
 
@@ -309,7 +309,7 @@
 
     .footer-head{
         font-size: 24px;
-        line-height: 28px;
+        line-height: 28;
         letter-spacing: -0.56px;
         font-weight: 500;
         width: 300px;
@@ -326,14 +326,14 @@
     .footer-contact{
         font-size: 14px;
         font-weight: 500;
-        line-height: 18px;
+        line-height: 18;
         margin-bottom: 14px;
     }
     
     .footer-contact-ii{
         font-size: 14px;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 18;
         letter-spacing: -0.28px;
         margin: 0px 0px 4px 0px;
     }
@@ -359,7 +359,7 @@
         align-items: flex-start;
         font-size: 14px;
         font-weight: 500;
-        line-height: 16px;
+        line-height: 16;
         letter-spacing: -0.28px;
         margin-top: 0;
         margin-bottom: 0px;
