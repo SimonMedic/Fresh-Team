@@ -123,6 +123,7 @@
 
     .hero-scroll-div{}
 
+
     .hero-button-v{
         border-radius: 50%;
         background-color: #FFF;
@@ -132,6 +133,7 @@
         align-items: center;
         justify-content: center;
     }
+
 
     .hero-button-link{
         color: #FFF;
