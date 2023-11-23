@@ -196,7 +196,7 @@ bottom: 386px;
 }
 .top-seller-list-relative {
     position: relative;
-    top: 141px;
+    top: 175px;
 }
 
 .top-sellers-button {
@@ -250,6 +250,7 @@ bottom: 386px;
     .our-products-container {
         position: relative;
         display: flex;
+        overflow: auto;
         width: 1136px;
         height: 364px;
         justify-content: center;
