@@ -27,7 +27,7 @@ img {
         width: 375px;
         background-color:var(--white-color);
         margin: 0 auto;
-        padding: 0 20px 72px;
+        padding: 0 20px;
         padding-top: 72px;
     }
 }
@@ -35,7 +35,7 @@ img {
     .container {
         width: 768px;
         background-color:var(--white-color);
-        padding: 0 32px 100px;
+        padding: 0 32px ;
         padding-top: 100px;
     }
 }
@@ -148,7 +148,7 @@ img {
     align-items: center;
     display: flex;
     margin: 0 0 18px 0;
-  }
+}
 
   .our-products-price {
     font-size: 14px;
