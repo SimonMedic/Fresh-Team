@@ -16,6 +16,11 @@
     text-decoration: none;
 }
 
+ .hero-no-decoration {
+     text-decoration: none;
+     color: inherit;
+ }
+
 /*===================Desktop====================*/
 
 @media screen and (min-width: 1200px){
