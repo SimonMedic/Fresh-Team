@@ -532,4 +532,8 @@ img {
     resize: none;
     outline: transparent;
   }
+
+  .x-icon {
+    fill: #111;
+  }
 }
