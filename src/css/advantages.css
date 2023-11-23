@@ -1,3 +1,4 @@
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -16,8 +17,11 @@
 @media screen and (min-width: 1200px) {
 
 .adv-cont {
-    max-width: 1200px;
     margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .adv-font{
@@ -40,7 +44,9 @@
 }
 
 .adv-point-cont{
+
     max-width: 326px;
+
     padding-right: 18px;
     position: relative;
 }
@@ -63,7 +69,11 @@
 
 .adv-svg{
     border-radius: 50%;
-    border  : 1px solid rgba(255, 255, 255, 0.50);
+
+    border: 1px solid rgba(255, 255, 255, 0.50);
+
+   
+
     width: 62px;
     height: 62px;
     display: flex;
@@ -95,8 +105,10 @@
     color: rgba(255, 255, 255, 0.70);
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: -0.28px;
     font-style: normal;
 }
+
 
 }
 /*===================Tablet====================*/
@@ -104,8 +116,9 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
     .adv-cont {
-        max-width: 768px;
-        margin: 0 auto;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
     }
 
     .adv-font {
@@ -126,6 +139,7 @@
         padding: 50px 30px;
         display: flex;
         flex-wrap: wrap;
+        max-width: 768px;
     }
 
     .adv-point-cont {
@@ -182,8 +196,10 @@
 @media screen and (max-width: 768px) {
 
     .adv-cont {
-        width: 335px;
-        margin: 71px auto;
+        margin: 90px auto;
+        display: flex;
+        justify-content: center;
+        min-width: 376px;
     }
 
     .adv-font {
@@ -204,10 +220,12 @@
         padding: 50px 30px;
         display: flex;
         flex-wrap: wrap;
+        min-width: 326px;
+        justify-content: center;
     }
 
     .adv-point-cont {
-        max-width: 326px;
+        width: 326px;
         padding-right: 18px;
         position: relative;
     }
@@ -254,3 +272,4 @@
     }
 
 }
+
