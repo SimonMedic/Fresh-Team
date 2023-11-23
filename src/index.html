@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh-Team making chocolate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nagłówek strony</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-    crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css" />
 
-  <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <link rel="shortcut icon" type="image" href="../src/images/header/favicon.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+    <!-- <include src="./partials/example.html"></include> -->
+    <include src="./partials/header.html"></include>
+    <main>
+      <div id="header">
+        <div id="header">
+          <include src="./partials/hero.html"></include>
+        </div>
+      </div>
+      <include src="./partials/advantages.html"></include>
+      <include src="./partials/unique-components.html"></include>
+      <div id="how-its-made">
+        <include src="./partials/how-its-made.html"></include>
+      </div>
+      <div id="our-products">
+        <include src="./partials/our-products.html"></include>
+      </div>
+      <div id="top-sellers">
+        <include src="./partials/top-sellers.html"></include>
+      </div>
+      <div id="reviews">
+        <include src="./partials/reviews.html"></include>
+      </div>
+      <include src="./partials/subscribe.html"></include>
+    </main>
 
-<body>
-  <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
-  <!-- <include src="./partials/example.html"></include> -->
-  <include src="./partials/header.html"></include>
-  <main>
-    <div id="header"><include src="./partials/hero.html"></include></div>
-    <include src="./partials/advantages.html"></include>
-    <include src="./partials/unique-components.html"></include>
-    <div id="how-its-made"><include src="./partials/how-its-made.html"></include></div>
-    <div id="our-products"><include src="./partials/our-products.html"></include></div>
-    <div id="top-sellers"><include src="./partials/top-sellers.html"></include></div>
-    <div id="chocolate-is-loved"><include src="./partials/reviews.html"></include></div>
-    <include src="./partials/subscribe.html"></include>
-  </main>
+    <div id="footer"></div>
+    <include src="./partials/footer.html"></include>
+    </div>
 
-  <div id="footer"></div><include src="./partials/footer.html"></include></div>
+    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
+    <script src="./index.js" type="module"></script>
 
-  <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
-  <script src="./index.js" type="module"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
 
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"></script>
-  <script defer src="./js/mobile-menu.js"></script>
-  <script src="./js/modal.js"></script>
-</body>
+    <script defer src="./js/mobile-menu.js"></script>
 
+    <script src="./js/modal-buy.js"></script>
+
+    <script src="./js/modal-review.js"></script>
+
+    <script src="./js/modal-subscribe.js"></script>
+  </body>
 </html>
