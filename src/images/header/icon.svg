@@ -20,6 +20,12 @@
 <g id="menu-03">
 <path d="M4 16H28M4 8H28M4 24H28" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
+
+<symbol id="icon-x" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M22.667 9.333l-13.333 13.333M9.333 9.333l13.333 13.333"></path>
+</symbol>
+
+
 <symbol id="favicon" viewBox="0 0 32 32">
 <path fill="#fcf1e0" style="fill: var(--color1, #fcf1e0)" d="M3.944 20.076l10.777-17.424 0.64-0.675 8.235 5.491 0.057 3.315 2.009 3.28-8.88 14.076-12.839-8.063z"></path>
 <path fill="none" stroke="#fd9222" style="stroke: var(--color2, #fd9222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M21.635 23.88l-14.187-8.864M11.361 8.599l14.185 8.864M10.629 25.864l11.736-19.249M27.176 14.788c-3.040-1.899-4.233-3.383-2.277-6.591l-9.627-6.016-11.735 19.251 14.187 8.864 9.453-15.507z"></path>

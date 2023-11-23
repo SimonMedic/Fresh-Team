@@ -16,8 +16,10 @@
 @media screen and (min-width: 1200px) {
 
 .adv-cont {
-    max-width: 1200px;
     margin: 0 auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
 }
 
 .adv-font{
@@ -104,8 +106,9 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
     .adv-cont {
-        max-width: 768px;
-        margin: 0 auto;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
     }
 
     .adv-font {
@@ -126,6 +129,7 @@
         padding: 50px 30px;
         display: flex;
         flex-wrap: wrap;
+        max-width: 768px;
     }
 
     .adv-point-cont {
@@ -182,8 +186,10 @@
 @media screen and (max-width: 768px) {
 
     .adv-cont {
-        width: 335px;
-        margin: 71px auto;
+        margin: 90px auto;
+        display: flex;
+        justify-content: center;
+        min-width: 376px;
     }
 
     .adv-font {
@@ -204,10 +210,12 @@
         padding: 50px 30px;
         display: flex;
         flex-wrap: wrap;
+        min-width: 326px;
+        justify-content: center;
     }
 
     .adv-point-cont {
-        max-width: 326px;
+        width: 326px;
         padding-right: 18px;
         position: relative;
     }
