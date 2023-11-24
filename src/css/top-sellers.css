@@ -319,6 +319,7 @@ img {
     min-height: 1058px;
     border-radius: 15px;
     background: #fafafa;
+    padding: 48px;
   }
 
   .buy-now-modal-text {
