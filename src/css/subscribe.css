@@ -1,5 +1,8 @@
 /* ======= DESKTOP ======= */
-
+button:hover {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
 @media screen and (min-width: 1200px) {
   .subscribe {
     display: flex;
@@ -19,6 +22,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    gap: 24px;
   }
 
   .subscribe-title {
@@ -372,12 +376,18 @@
   .container-subscribe {
     display: flex;
     flex-direction: column;
+    justify-self: center;
     align-items: center;
+    padding-top: 62px;
+    padding-bottom: 63px;
     gap: 24px;
     flex-shrink: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url(../images/subscribe/subscribe-mobile.jpg),
+      url(../images/subscribe/subcribemobile.jpg),
       lightgray -412px -477.287px / 320% 372.105% no-repeat;
+    max-width: 375px;
+    height: 370px;
+    margin: 0 auto;
   }
 
   .subscribe-title {
@@ -401,6 +411,7 @@
     letter-spacing: -0.28px;
     color: #fff;
     text-align: center;
+    width: 326px;
   }
 
   .subscribe-button {
@@ -432,13 +443,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 72px 367px 72px 366px;
+    padding: 72px 150px 72px 151px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url(../images/subscribe/SubcribeTablet.jpg),
       lightgray 0px -481.157px / 100% 375.122% no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    gap: 24px;
+    max-width: 768px;
+    margin: 0 auto;
   }
 
   .subscribe-title {
