@@ -376,7 +376,7 @@
     gap: 24px;
     flex-shrink: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url(../images/subscribe/subscribe-mobile.jpg),
+      url(../images/subscribe/SubscribeMobile.jpg),
       lightgray -412px -477.287px / 320% 372.105% no-repeat;
   }
 
