@@ -159,6 +159,7 @@ img {
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.28px;
+  margin-bottom: 8px;
 }
 
 .bn-input-form:focus {
