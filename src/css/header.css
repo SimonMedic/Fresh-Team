@@ -143,6 +143,12 @@
     display: block;
     text-decoration: none;
     color: #111;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .header-nav-list-link:hover {
+    color: #fd9222;
   }
 
   .header-link-cont {
