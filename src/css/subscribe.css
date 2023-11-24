@@ -22,6 +22,17 @@
     gap: 24px;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xDesktop.jpg),
+        lightgray 0px -481.157px / 100% 375.122% no-repeat;
+    }
+  }
+
   .subscribe-title {
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
@@ -393,6 +404,17 @@
     margin: 0 auto;
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xMobile.jpg),
+        lightgray -412px -477.287px / 320% 372.105% no-repeat;
+    }
+  }
+
   .subscribe-title {
     font-family: 'Montserrat' sans-serif;
     font-size: 20px;
@@ -459,6 +481,17 @@
     gap: 24px;
     max-width: 768px;
     margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xTablet.jpg),
+        lightgray -215px -481.157px / 156.25% 375.122% no-repeat;
+    }
   }
 
   .subscribe-title {
