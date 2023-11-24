@@ -269,6 +269,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 133px;
+  margin-top: 10px;
 }
 
 .bn-input-tel {
@@ -479,6 +480,10 @@ img {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0s;
+  }
+
+  .buy-now-modal {
+    max-height: 1058px;
   }
 }
 
