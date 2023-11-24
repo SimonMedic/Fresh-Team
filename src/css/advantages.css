@@ -19,6 +19,7 @@
     margin-top: 72px;
     display: flex;
     justify-content: center;
+    max-width: 1200px;
   }
 
   .adv-font {
@@ -110,6 +111,7 @@
     margin: 50px auto;
     display: flex;
     justify-content: center;
+    max-width: 768px;
   }
 
   .adv-font {
@@ -188,7 +190,7 @@
     margin: 90px auto;
     display: flex;
     justify-content: center;
-    min-width: 376px;
+    max-width: 375px;
   }
 
   .adv-font {
