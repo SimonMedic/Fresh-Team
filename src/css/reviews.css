@@ -388,10 +388,6 @@ img {
   /* kontenery z img i reviews */
 
   .reviews-cards {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 16px;
     margin-bottom: 32px;
     margin-top: 91px;
   }
@@ -412,13 +408,19 @@ img {
   .reviews-section {
     padding: 128px 32px;
   }
-  .reviews-card {
-    gap: 28px;
-  }
+
   .reviews-card {
     max-width: calc((100% - 56px) / 3);
   }
   .reviews-card:nth-child(3) {
     display: block;
   }
+}
+
+/* slider */
+.splide__track {
+  padding-top: 91px;
+}
+.splide__slide {
+  border: transparent;
 }
