@@ -40,42 +40,36 @@
 
 <!-- /* windows modal*/ -->
 
-    <div class="backdrop is-hidden" modal-buy>
+ <div class="backdrop is-hidden" modal-buy>
       <div class="buy-now-modal">
         <button type="button" class="bn-close-btn" modal-buy-close>
           <svg class="x-icon" width="28" height="28">
             <use href="./images/icons.svg#icon-x-close"></use>
           </svg>
         </button>
-        <p class="buy-now-modal-text">
-          BUY <span class="bn-modal-span">NOW</span>
-        </p>
-    
-          <div class="bn-modal-list">
-            <ul class="bn-modal-img">
-              <li class="bn-modal-item">
-              <img
-                src="./images/top-sellers/buynow1.jpg"
-                alt="dark chocolate"
-                width="120"
-              />
-                <p class="bn-modal-item-text">100 g</p></li>
-                <li class="bn-modal-item">
-              <img
-                src="./images/top-sellers/buynow2.jpg"
-                alt="white chocolate"
-                width="120"
-              />
-                <p class="bn-modal-item-text">200 g</p></li>
-                <li class="bn-modal-item">
+        <p class="buy-now-modal-text">BUY <span class="bn-modal-span">NOW</span></p>
+
+        <div class="bn-modal-list">
+          <ul class="bn-modal-img">
+            <li class="bn-modal-item">
+              <img src="./images/top-sellers/buynow1.jpg" alt="dark chocolate" width="120" />
+              <p class="bn-modal-item-text">100 g</p>
+            </li>
+            <li class="bn-modal-item">
+              <img src="./images/top-sellers/buynow2.jpg" alt="white chocolate" width="120" />
+              <p class="bn-modal-item-text">200 g</p>
+            </li>
+            <li class="bn-modal-item">
               <img
                 src="./images/top-sellers/buynow3.jpg"
                 alt="two tables of chocolate"
                 width="120"
               />
-                <p class="bn-modal-item-text">300 g</p></li></ul></div>
-                
-            
+              <p class="bn-modal-item-text">300 g</p>
+            </li>
+          </ul>
+        </div>
+
         <form name="signup_form" autocomplete="on" class="bn-form-contact">
           <div class="bn-label-form">
             <label for="user-name" class="bn-label-tittle">Personal information</label>
@@ -88,7 +82,7 @@
                 placeholder="Name"
                 required
               />
-          <input
+              <input
                 class="bn-input-form"
                 id="user-name"
                 type="text"
@@ -112,26 +106,26 @@
             </div>
           </div>
           <div class="reviews-input-phone">
-          <div class="reviews-input-svg">
-            <svg width="32" height="24">
-              <use href="./images/icons.svg#icon-flag"></use>
-            </svg>
-            +48
+            <div class="reviews-input-svg">
+              <svg width="32" height="24">
+                <use href="./images/icons.svg#icon-flag"></use>
+              </svg>
+              +48
+            </div>
+            <div class="reviews-phone-container">
+              <label for="phone"
+                ><input
+                  id="phone"
+                  type="tel"
+                  name="phone"
+                  pattern="[0-9]{9}"
+                  title="Please enter a valid phone number with 9 digits"
+                  placeholder="Phone number"
+                  class="reviews-input reviews-input-tel"
+                  required
+              /></label>
+            </div>
           </div>
-          <div class="reviews-phone-container">
-            <label for="phone"
-              ><input
-                id="phone"
-                type="tel"
-                name="phone"
-                pattern="[0-9]{9}"
-                title="Please enter a valid phone number with 9 digits"
-                placeholder="Phone number"
-                class="reviews-input reviews-input-tel"
-                required
-            /></label>
-          </div>
-        </div>
           <div class="bn-label-form">
             <label class="bn-label-tittle">Card number</label>
             <div class="bn-input-icon">
@@ -158,9 +152,5 @@
           <button type="submit" class="bn-submit-button">Submit</button>
         </form>
       </div>
-    </div></div>
-
-    
-
-    <script src="./js/modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
+    </div>
+  </div>
