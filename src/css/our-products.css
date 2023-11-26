@@ -21,6 +21,266 @@ img {
 .link {
   text-decoration: none;
 }
+
+.backdrop {
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    width: 375px;
+    background-color: var(--white-color);
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 72px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+    background-color: var(--white-color);
+    padding: 0 32px;
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    background-color: var(--white-color);
+    margin: 0 auto;
+    padding: 0 32px;
+    padding-top: 128px;
+  }
+}
+/* --------MOBILE----------- */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .section {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .section-title {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+  .section-title-span {
+    color: var(--orange-color);
+  }
+  .our-products-container {
+    display: flex;
+    width: 335px;
+    height: 397px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    flex-shrink: 0;
+  }
+  .our-products-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-products-item {
+    display: none;
+  }
+  .our-products-item:first-child {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: #fff;
+    padding: 32px 52px 32px 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-products-chocolate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .our-products-chocolate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .our-products-header {
+    color: var(--black-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 8px 0 2px 0;
+  }
+  .our-products-text {
+    color: rgba(17, 17, 17, 0.7);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.24px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 0 18px 0;
+  }
+  .our-products-price {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--black-color);
+    display: flex;
+    width: 94px;
+    padding: 8px 20px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 100px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    background: var(--white-color);
+  }
+  .top-sellers-container {
+    margin-top: 0;
+  }
+  .top-seller-list {
+    margin: 0 auto;
+  }
+  .top-sellers-image {
+    border-radius: 15px;
+    background-color: lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .top-seller-list:nth-child(n + 3) {
+    display: none;
+  }
+  .top-sellers-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .top-sellers-text {
+    color: var(--black-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.28px;
+    width: 306px;
+    margin: 20px 0 32px;
+    padding-right: 29px;
+    position: relative;
+    bottom: 386px;
+  }
+  .top-seller-list-relative {
+    position: relative;
+    top: 145px;
+  }
+
+  .top-sellers-button {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    border: none;
+    padding: 14px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    position: relative;
+    top: 55px;
+  }
+  .top-sellers-button:hover,
+  .top-sellers-button:active {
+    background: var(--light-orange);
+    color: var(--orange-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
+
+  .buy-now-modal {
+    max-height: 1058px;
+  }
+}
+
+/* -----------TABLET-------------- */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-title {
+    color: var(--orange-color);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.16;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .section-title-span {
+    color: var(--black-color);
+  }
+  .our-products-container {
+    position: relative;
+    display: flex;
+    overflow: auto;
+    width: 1136px;
+    height: 364px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-shrink: 0;
+  }
+  .our-products-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .our-products-chocolate {
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    padding: 32px 20px; 
+
 .modal {
   position: fixed;
   top: 0;
@@ -162,6 +422,7 @@ img {
 
 .bn-input-form:focus {
   fill: #fd9222;
+
 }
 
 .bn-input {
