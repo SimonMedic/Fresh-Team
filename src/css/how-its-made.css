@@ -9,7 +9,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px; /* 116.667% */
+  line-height: 1.16; /* 116.667% */
   letter-spacing: -0.72px;
   text-transform: uppercase;
   margin-bottom: 50px;
@@ -21,7 +21,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 28px;
+  line-height: 1.16;
   letter-spacing: -0.72px;
   text-transform: uppercase;
 }
@@ -51,7 +51,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; /* 133.333% */
+  line-height: 1.33; /* 133.333% */
   margin: 0;
 }
 .him-content-list {
@@ -68,7 +68,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 1.28; /* 128.571% */
   letter-spacing: -0.28px;
   display: flex;
 }
@@ -100,8 +100,8 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .how-its-made-section {
-    min-width: 1200px;
-    margin: 0 32px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   .him-div {
     display: flex;
@@ -117,8 +117,16 @@ img {
     padding-right: 77px;
     padding-left: 77px;
   }
+  .him-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .him-content {
     margin-top: 20px;
+    max-width: 614px;
   }
   .him-content-list {
     margin-bottom: 0px;
@@ -140,19 +148,31 @@ img {
   .him-header,
   .him-span {
     font-size: 20px;
-    line-height: 24px; /* 120% */
+    line-height: 1.2; /* 120% */
     letter-spacing: -0.6px;
     margin-bottom: 32px;
   }
-
+  .him-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .him-video-div {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
       url(../images/how-its-made/imgvideomobile.jpg),
       lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+    max-width: 335px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .him-content {
     margin-top: 28px;
     padding: 20px 14px;
+    max-width: 335px;
+    height: 456px;
   }
   .him-content-list {
     margin: 20px 0;
