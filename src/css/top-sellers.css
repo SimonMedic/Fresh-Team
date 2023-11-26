@@ -290,7 +290,7 @@ img {
     pointer-events: none;
   }
 
-  /* okno modalne*/
+  /* windows modal*/
 
   .bn-close-btn {
     position: absolute;
