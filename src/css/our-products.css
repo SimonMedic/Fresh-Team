@@ -261,7 +261,7 @@ img {
     max-width: 1136px;
     gap: 18px;
     flex-shrink: 0;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
   }
   .our-products-item-hidden {
