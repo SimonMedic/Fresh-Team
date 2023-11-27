@@ -764,7 +764,6 @@ img {
   }
   .bn-modal-item {
     flex-direction: row;
-    gap: 77px;
     justify-content: space-between;
     align-items: center;
     background: #fff;
@@ -783,7 +782,7 @@ img {
     border: 1px solid rgba(17, 17, 17, 0.1);
     background: #fafafa;
   }
-  img {
+  img > bn.modal.bn-modal-item {
     max-width: 84px;
     max-height: 69px;
   }
