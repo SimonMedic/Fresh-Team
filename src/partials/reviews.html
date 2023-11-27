@@ -1,0 +1,209 @@
+<section class="reviews-section">
+  <div class="reviews-container">
+    <h2 class="reviews-header"><span class="reviews-span">CHOCOLATE</span> IS LOVED</h2>
+    <div id="splide" class="splide">
+      <div class="splide__track">
+        <ul class="splide__list reviews-cards">
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                width="80"
+                height="80"
+                src="./images/reviews/victoria.jpg"
+                srcset="./images/reviews/victoria@2.jpg 2x"
+                alt="Portrait of a woman with fair skin and short red hair"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Victoria Dobrzhanska</h3>
+                <p class="reviews-text">
+                  I love this chocolate bar. Perfect combination of light crispy wafer, covered in a
+                  thin layer chocolate.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                src="./images/reviews/nazar.jpg"
+                srcset="./images/reviews/nazar@2.jpg 2x"
+                alt="Portrait of a man with freckles"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Nazar Babenko</h3>
+                <p class="reviews-text">
+                  This chocolate confection is a delight! A delight! The wafer is light and crisp,
+                  the hazelnut cream is smooth, and the chocolate is good.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                src="./images/reviews/olena.jpg"
+                srcset="./images/reviews/olena@2.jpg 2x"
+                alt="Portrait of a woman with long brown hair, pulled back behind one ear, wearing a black-and-white striped shirt"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Olena Kampusch</h3>
+                <p class="reviews-text">
+                  Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+                  creaminess inside. The wafer is soft but crunchy.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                width="80"
+                height="80"
+                src="./images/reviews/natalia.jpg"
+                srcset="./images/reviews/natalia@2.jpg 2x"
+                alt="Portrait of a woman with long red curly hair"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Natalia Sus</h3>
+                <p class="reviews-text">
+                  The chocolate assortment was delicious. Both dark and milk chocolate pieces were
+                  smooth and just right on the sweetness level.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                width="80"
+                height="80"
+                src="./images/reviews/danilo.jpg"
+                srcset="./images/reviews/danilo@2.jpg 2x"
+                alt="Black and white photo of a smiling man with medium-length hair"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Danilo Nottingham</h3>
+                <p class="reviews-text">
+                  This is delicious. It so rich and flavorful you don’t need to use as many. I love
+                  topping an apple with almond butter and these chips for a snack.
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reviews-card splide__slide">
+            <figure>
+              <img
+                width="80"
+                height="80"
+                src="./images/reviews/irina.jpg"
+                srcset="./images/reviews/irina@2.jpg 2x"
+                alt="Portrait of a woman standing with her back, looking over her shoulder towards the camera, with long hair, holding a phone in her hand, wearing a blazer"
+              />
+              <figcaption class="reviews-box">
+                <h3 class="reviews-name">Irina Tydnyuk</h3>
+                <p class="reviews-text">
+                  This is simply the best chocolate around, and I'm just thrilled to support a local
+                  company! Best local chocolate - world class :)
+                </p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+
+    </ul>
+
+    <div class="reviews-slider"></div>
+
+
+    <div class="reviews-slider" aria-label="Splide Basic HTML Example">
+      <ul class="splide__list">
+        <li class="splide__slide"></li>
+        <li class="splide__slide"></li>
+        <li class="splide__slide"></li>
+      </ul>
+    </div>
+
+      <div id="my-pagination" class="splide__pagination">
+        <button type="button" class="splide__pagination__page" data-splide-page="0">1</button>
+        <button type="button" class="splide__pagination__page" data-splide-page="1">2</button>
+        <button type="button" class="splide__pagination__page" data-splide-page="2">3</button>
+      </div>
+    </div>
+
+
+   
+
+    <button type="button" class="reviews-button" modal-review-open>Leave a review</button>
+
+  </div>
+</section>
+
+<div modal-review class="backdrop is-hidden">
+  <div class="reviews-modal">
+    <button modal-review-close type="button" class="reviews-modal-closing-button">
+      <svg class="reviews-closing-icon">
+        <use href="./images/icons.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <p class="reviews-modal-title">
+      LEAVE A REVIEW<br />
+      ABOUT<span class="reviews-span"> OUR CHOCOLATE</span>
+    </p>
+    <form>
+      <div class="reviews-form">
+        <div>
+          <label for="name"
+            ><input
+              type="text"
+              name="username"
+              placeholder="Name"
+              id="name"
+              pattern="[a-zA-Z]{2,} [a-zA-Z]{2,}"
+              title="Please enter two words, each with at least two characters"
+              class="reviews-input"
+              required
+          /></label>
+        </div>
+        <div>
+          <label for="email"
+            ><input type="email" name="email" class="reviews-input" id="email" placeholder="Email"
+          /></label>
+        </div>
+        <div class="reviews-input-phone">
+          <div class="reviews-input-svg">
+            <svg width="32" height="24">
+              <use href="./images/icons.svg#icon-flag"></use>
+            </svg>
+            +48
+          </div>
+          <div class="reviews-phone-container">
+            <label for="phone"
+              ><input
+                id="phone"
+                type="tel"
+                name="phone"
+                pattern="[0-9]{9}"
+                title="Please enter a valid phone number with 9 digits"
+                placeholder="Phone number"
+                class="reviews-input reviews-input-tel"
+                required
+            /></label>
+          </div>
+        </div>
+        <div>
+          <label for="user-comment">
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Enter text"
+              class="reviews-comment"
+              required
+            ></textarea>
+          </label>
+        </div>
+      </div>
+      <button type="submit" class="reviews-modal-button">Send</button>
+    </form>
+  </div>
+</div>

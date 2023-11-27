@@ -1,27 +1,28 @@
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.button{
-    background-color: transparent;
-    text-decoration: none;
+.button {
+  background-color: transparent;
+  text-decoration: none;
 }
 
- .hero-no-decoration {
-     text-decoration: none;
-     color: inherit;
- }
+.hero-no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*===================Desktop====================*/
+
 
 @media screen and (min-width: 1200px){
 
@@ -155,11 +156,13 @@
         letter-spacing: -0.42px;
     }
 
+
 }
 
 /*===================Tablet====================*/
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+
     .hero-cont {
         max-width: 768px;
         padding-left: 32px;
@@ -287,11 +290,13 @@
         letter-spacing: -0.42px;
     }
 
+
 }
 
 /*===================Mobile====================*/
 
 @media screen and (max-width: 768px) {
+
 
     .hero-cont {
         max-width: 375px;
@@ -425,7 +430,5 @@
     }
 
 
+
 }
-
-
-
