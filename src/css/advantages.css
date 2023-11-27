@@ -19,7 +19,9 @@
     margin-top: 72px;
     display: flex;
     justify-content: center;
+
     max-width: 1200px;
+
   }
 
   .adv-font {
@@ -111,7 +113,9 @@
     margin: 50px auto;
     display: flex;
     justify-content: center;
+
     max-width: 768px;
+
   }
 
   .adv-font {
@@ -122,6 +126,7 @@
   .adv-bacground {
     background: #1e1823;
   }
+
 
   .adv-list-nodot {
     list-style: none;
@@ -161,6 +166,7 @@
     margin: 0;
   }
 
+
   .adv-header-font {
     color: #fff;
     font-size: 18px;
@@ -190,7 +196,9 @@
     margin: 90px auto;
     display: flex;
     justify-content: center;
-    max-width: 375px;
+
+    min-width: 376px;
+
   }
 
   .adv-font {
@@ -222,9 +230,11 @@
     position: relative;
   }
 
+
   .adv-last-point-cont {
     max-width: 308px;
   }
+
 
   .adv-svg {
     border-radius: 50%;
