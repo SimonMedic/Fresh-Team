@@ -48,6 +48,7 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+
     @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -165,7 +166,8 @@
         padding-right: 32px;
         margin: 0 auto;
     }
-    
+
+
     .hero-radius {
         border-radius: 30px;
         background: #FCF1E0;
@@ -182,6 +184,15 @@
         background-repeat: no-repeat;
         max-width: 704px;
     }
+
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround {
+                background-image: url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
     
     .hero-paragraph-cont {
         padding-top: 671px;
@@ -306,6 +317,15 @@
         background-repeat: no-repeat;
         max-width: 335px;
     }
+
+     @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround {
+                background-image: url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
 
     .hero-paragraph-cont {
         padding-top: 395px;
