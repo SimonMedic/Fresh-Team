@@ -161,7 +161,7 @@ img {
   }
   .our-products-container {
     display: flex;
-    width: 1136px;
+
     justify-content: center;
     align-items: center;
     gap: 18px;
@@ -174,6 +174,9 @@ img {
     padding: 32px 20px;
   }
   .our-products-item-hidden {
+    display: none;
+  }
+  .our-products-item-hidden-tablet {
     display: none;
   }
   .our-products-chocolate-container {
@@ -224,7 +227,7 @@ img {
     line-height: normal;
   }
   .our-products-item {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 2);
   }
   .our-products-list {
     display: flex;
