@@ -257,6 +257,7 @@ img {
   height: 200px;
   text-align: center;
   padding: 38px 24px 42px 24px;
+  padding-top: 56px;
   border-radius: 15px;
   border: 1px solid rgba(17, 17, 17, 0.1);
   background: #fff;
@@ -280,6 +281,7 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 1.33;
+  padding-bottom: 24px;
 }
 .reviews-text {
   color: rgba(17, 17, 17, 0.7);
@@ -386,10 +388,6 @@ img {
   /* kontenery z img i reviews */
 
   .reviews-cards {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 16px;
     margin-bottom: 32px;
     margin-top: 91px;
   }
@@ -410,13 +408,19 @@ img {
   .reviews-section {
     padding: 128px 32px;
   }
-  .reviews-card {
-    gap: 28px;
-  }
+
   .reviews-card {
     max-width: calc((100% - 56px) / 3);
   }
   .reviews-card:nth-child(3) {
     display: block;
   }
+}
+
+/* slider */
+.splide__track {
+  padding-top: 91px;
+}
+.splide__slide {
+  border: transparent;
 }

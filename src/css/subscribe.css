@@ -19,6 +19,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    gap: 24px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xDesktop.jpg),
+        lightgray 0px -481.157px / 100% 375.122% no-repeat;
+    }
   }
 
   .subscribe-title {
@@ -26,7 +38,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
     color: #fff;
@@ -38,7 +50,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.28px;
     color: #fff;
     text-align: center;
@@ -59,7 +71,10 @@
     line-height: normal;
     color: #fff;
   }
-
+  .subscribe-button:hover {
+    background-color: #fcf1e0;
+    color: #fd9222;
+  }
   .subscribe-photo {
     background: url(../images/subscribe/subscribe-desktop.jpg), lightgray 50% / cover repeat-x;
     height: 196px;
@@ -126,7 +141,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
     width: 298px;
@@ -140,7 +155,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
   }
@@ -208,12 +223,15 @@
 
 /* ======= MOBILE ======= */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .subscribe {
     width: 375px;
     margin: 0 auto;
   }
-
+  .subscribe-button:hover {
+    background-color: #fcf1e0;
+    color: #fd9222;
+  }
   .subscribe-photo {
     background: url(../images/subscribe/subscribe-mobile.jpg), lightgray 50% / cover repeat-x;
     height: 169px;
@@ -281,7 +299,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: -0.6px;
     text-transform: uppercase;
     width: 263px;
@@ -295,7 +313,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: -0.6px;
     text-transform: uppercase;
   }
@@ -372,12 +390,29 @@
   .container-subscribe {
     display: flex;
     flex-direction: column;
+    justify-self: center;
     align-items: center;
+    padding-top: 62px;
+    padding-bottom: 63px;
     gap: 24px;
     flex-shrink: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url(../images/subscribe/subscribe-mobile.jpg),
+      url(../images/subscribe/SubscribeMobile.jpg),
       lightgray -412px -477.287px / 320% 372.105% no-repeat;
+    max-width: 375px;
+    height: 370px;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xMobile.jpg),
+        lightgray -412px -477.287px / 320% 372.105% no-repeat;
+    }
   }
 
   .subscribe-title {
@@ -385,7 +420,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: -0.6px;
     text-transform: uppercase;
     color: #fff;
@@ -397,10 +432,11 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.28px;
     color: #fff;
     text-align: center;
+    width: 326px;
   }
 
   .subscribe-button {
@@ -421,24 +457,41 @@
 
 /* ======= TABLET ======= */
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscribe {
     max-width: 768px;
     margin: 0 auto;
   }
-
+  .subscribe-button:hover {
+    background-color: #fcf1e0;
+    color: #fd9222;
+  }
   .container-subscribe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 72px 367px 72px 366px;
+    padding: 72px 150px 72px 151px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
       url(../images/subscribe/SubcribeTablet.jpg),
       lightgray 0px -481.157px / 100% 375.122% no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    gap: 24px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .container-subscribe {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+        url(../images/subscribe/Subcribe@2xTablet.jpg),
+        lightgray -215px -481.157px / 156.25% 375.122% no-repeat;
+    }
   }
 
   .subscribe-title {
@@ -446,7 +499,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
     color: #fff;
@@ -458,7 +511,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 1.28;
     letter-spacing: -0.28px;
     color: #fff;
     text-align: center;
@@ -546,7 +599,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
     width: 298px;
@@ -560,7 +613,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 1.16;
     letter-spacing: -0.72px;
     text-transform: uppercase;
   }

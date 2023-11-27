@@ -1,27 +1,28 @@
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.button{
-    background-color: transparent;
-    text-decoration: none;
+.button {
+  background-color: transparent;
+  text-decoration: none;
 }
 
- .hero-no-decoration {
-     text-decoration: none;
-     color: inherit;
- }
+.hero-no-decoration {
+  text-decoration: none;
+  color: inherit;
+}
 
 /*===================Desktop====================*/
+
 
 @media screen and (min-width: 1200px){
 
@@ -48,6 +49,15 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround{
+                background-image:  url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
 
     .hero-paragraph-cont{
         padding-top: 381px;
@@ -106,7 +116,6 @@
         margin-left: 14px;
         border: 1px solid;
         transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        text-decoration: none;
     }
 
     .hero-button-made:hover{
@@ -129,7 +138,6 @@
 
     .hero-scroll-div{}
 
-
     .hero-button-v{
         border-radius: 50%;
         background-color: #FFF;
@@ -140,7 +148,6 @@
         justify-content: center;
     }
 
-
     .hero-button-link{
         color: #FFF;
         font-size: 14px;
@@ -149,18 +156,21 @@
         letter-spacing: -0.42px;
     }
 
+
 }
 
 /*===================Tablet====================*/
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+
     .hero-cont {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
         margin: 0 auto;
     }
-    
+
+
     .hero-radius {
         border-radius: 30px;
         background: #FCF1E0;
@@ -177,6 +187,15 @@
         background-repeat: no-repeat;
         max-width: 704px;
     }
+
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround {
+                background-image: url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
     
     .hero-paragraph-cont {
         padding-top: 671px;
@@ -271,11 +290,13 @@
         letter-spacing: -0.42px;
     }
 
+
 }
 
 /*===================Mobile====================*/
 
 @media screen and (max-width: 768px) {
+
 
     .hero-cont {
         max-width: 375px;
@@ -290,7 +311,6 @@
         background: #FCF1E0;
     }
 
-
     .hero-font {
         font-family: "Montserrat", sans-serif;
     }
@@ -302,6 +322,15 @@
         background-repeat: no-repeat;
         max-width: 335px;
     }
+
+     @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround {
+                background-image: url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
 
     .hero-paragraph-cont {
         padding-top: 395px;
@@ -399,3 +428,7 @@
         line-height: 1.28;
         letter-spacing: -0.42px;
     }
+
+
+
+}

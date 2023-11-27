@@ -36,7 +36,7 @@
     </p>
             
        
-    <button type="button" class="button" modal-buy-open>Buy now</button>
+    <button type="button" class="button top-sellers-button" modal-buy-open>Buy now</button>
     </div>
 </div>
 </section>
@@ -47,7 +47,7 @@
       <div class="buy-now-modal">
         <button type="button" class="bn-close-btn" modal-buy-close>
           <svg class="x-icon" width="28" height="28">
-            <use href="./images/top-sellers/icons.svg#icon-x-close-two"></use>
+            <use href="./images/icons.svg#icon-x-close"></use>
           </svg>
         </button>
         <p class="buy-now-modal-text">
@@ -114,25 +114,27 @@
               />
             </div>
           </div>
-          <div class="bn-label-form-phone">
-            <div class="bn-input-svg">
+          <div class="reviews-input-phone">
+          <div class="bn-input-svg">
             <svg width="32" height="24">
-              <use href="./images/top-sellers/icons.svg#icon-flag"></use></svg>+48
+              <use href="./images/icons.svg#icon-flag"></use>
+            </svg>
+            +48
           </div>
-          <div class="bn-phone-container">
-            <label class="bn-label-tittle">Phone number
-              <input
-                class="bn-input-form bn-phone"
-                id="user-phone"
+          <div class="reviews-phone-container">
+            <label for="phone"
+              ><input
+                id="phone"
                 type="tel"
                 name="phone"
-                placeholder="Phone number"
                 pattern="[0-9]{9}"
                 title="Please enter a valid phone number with 9 digits"
+                placeholder="Phone number"
+                class="reviews-input reviews-input-tel"
                 required
-              /></label>
-            </div>
+            /></label>
           </div>
+        </div>
           <div class="bn-label-form">
             <label class="bn-label-tittle">Card number</label>
             <div class="bn-input-icon">
