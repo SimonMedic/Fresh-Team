@@ -622,8 +622,6 @@ img {
 
   .buy-now-modal {
     position: absolute;
-    top: 0%;
-    left: 30%;
     width: 609px;
     min-height: 1058px;
     border-radius: 15px;
@@ -844,5 +842,4 @@ img {
   .x-icon {
     background-color: transparent;
   }
-
 }
