@@ -48,6 +48,14 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+    @media (min-device-pixel-ratio: 2),
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-backround{
+                background-image:  url(../images/hero/chocolate-covered-cocoa-powder-1-x2.png);
+            }
+        }
 
     .hero-paragraph-cont{
         padding-top: 381px;
