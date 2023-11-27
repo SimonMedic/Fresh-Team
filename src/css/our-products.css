@@ -53,6 +53,13 @@ img {
     justify-content: center;
     align-items: center;
   }
+  .our-products-list {
+    display: flex;
+    padding: 32px 52px 32px 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .our-products-item {
     display: none;
   }
@@ -117,13 +124,7 @@ img {
     border: 1px solid rgba(17, 17, 17, 0.1);
     background: var(--white-color);
   }
-  .our-products-list {
-    display: flex;
-    padding: 32px 52px 32px 53px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   .our-products-item {
     display: none;
   }
