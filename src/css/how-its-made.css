@@ -1,5 +1,6 @@
 .how-its-made-section {
   background-color: #fafafa;
+  margin-bottom: 100px;
 }
 
 .him-header {
@@ -102,6 +103,7 @@ img {
   .how-its-made-section {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 128px;
   }
   .him-div {
     display: flex;
@@ -116,6 +118,7 @@ img {
     min-width: auto;
     padding-right: 77px;
     padding-left: 77px;
+    margin-bottom: 100px;
   }
   .him-div {
     display: flex;
@@ -144,6 +147,7 @@ img {
     min-width: auto;
     padding-right: 20px;
     padding-left: 20px;
+    margin-bottom: 72px;
   }
   .him-header,
   .him-span {
