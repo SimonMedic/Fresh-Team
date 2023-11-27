@@ -451,8 +451,10 @@ a {
     overflow-y: none;
     position: fixed;
     top: 0;
+
     right: 0;
     height: 100vh;
+
     width: 220px;
     background-color: #fff;
     z-index: 999;
